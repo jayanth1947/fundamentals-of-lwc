@@ -1,6 +1,7 @@
 import { api, LightningElement, track } from "lwc";
 export default class HelloWorld extends LightningElement {
   @api name="Jayanth"; //In the name we can give any name
+  //Here the track property is added
   @track greeting = "World";
   title="jaayanth";
   changeHandler(event) {
